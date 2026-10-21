@@ -3083,7 +3083,7 @@ msgstr ""
 
 #: source/neocd/neocd.c
 msgid "Fatal error"
-msgstr ""
+msgstr "重大なエラー"
 
 #: source/games/megasys1.c
 msgid "Female & Male"
@@ -3111,9 +3111,11 @@ msgstr "ネオジオCD BIOSを探す"
 
 #: source/neocd/neocd.c
 msgid ""
-"Find the NeoCD bios (neocd.bin).\n"
-"Ask Google if you can't find it !"
+"Find the Neo-Geo CD BIOS (neocd.bin).\n"
+"Ask Google if you can't find it!"
 msgstr ""
+"Neo-Geo CDのBIOS（neocd.bin）が見つかりません。\n"
+"見つからない場合は、Googleで検索してください。"
 
 #: source/sdl/dialogs/video_options.cpp
 msgid "Fix aspect ratio to 4:3"
