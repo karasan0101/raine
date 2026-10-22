@@ -36,7 +36,7 @@ static int choose_driver(int sel) {
         snprintf(&buf[strlen(buf)],512-strlen(buf),"%s|", SDL_GetAudioDriver(i));
     }
     buf[strlen(buf)-1] = 0; // remove last |
-    int ret = raine_mbox("Sound driver",_("Choose one of the available drivers:"),buf);
+    int ret = raine_mbox(_("Sound driver"),_("Choose one of the available drivers:"),buf);
     if (ret > 0 && strcmp(SDL_GetAudioDriver(ret-1),current)) {
 	const char *driver = SDL_GetAudioDriver(ret-1);
 	snprintf(buf,512,"SDL_AUDIODRIVER=%s",driver);

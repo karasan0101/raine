@@ -2086,7 +2086,7 @@ msgstr ""
 
 #: source/sdl/dialogs/sound_options.cpp
 msgid "Choose one of the available drivers:"
-msgstr ""
+msgstr "使用可能なドライバーを選択してください："
 
 #: source/games/chasehq.c source/games/chasehq2.c
 msgid "Clear Damage on Cont."
