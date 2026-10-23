@@ -230,6 +230,8 @@ class TMenuPostCb : public TMenu {
 	TMenuPostCb(char *my_title, menu_item_t *mymenu, int *mycb,char *leg) :
     TMenu(my_title,mymenu)
     {
+	if (jap_font && jap_font[0])
+	    font_name = jap_font;
 	cb = mycb;
 	wcb = 0;
 	legend = leg;
